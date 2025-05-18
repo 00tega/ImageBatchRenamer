@@ -1,5 +1,5 @@
 # ImageBatchRenamer
-ImageBatchRenamer is a lightweight Python script that recursively renames image files in a folder and its subfolders using a consistent naming format. It supports multiple image formats and organizes file names based on numerical order found in the original names. Ideal for organizing scraped images, datasets, or personal photo collections.
+ImageBatchRenamer is a lightweight Python script that recursively renames image files in a folder and its subfolders using a consistent naming format. It supports multiple image formats and organizes file names based on the numerical order found in the original names. It is ideal for organizing scraped images, datasets, or personal photo collections.
 
 A simple Python script to batch rename image files in a folder and all its subfolders. It renames each image file using a customizable base name followed by an incrementing number, preserving the original file extensions.
 
@@ -20,10 +20,10 @@ The script:
 4. Renames them in the format: `base_name_1.ext`, `base_name_2.ext`, etc.
 
 # Usage
-
 1. Edit the `folder_path` variable at the bottom of the script with your path.
 2. (Optional) Change the `base_name` argument if you want a different prefix.
-3. Run the script using Python:
-
+3. Open Command Prompt
+4. Navigate to the folder where ImageBatchRenamer.py is saved.
+5. Run the script using Python:
 ```bash
 python ImageBatchRenamer.py
